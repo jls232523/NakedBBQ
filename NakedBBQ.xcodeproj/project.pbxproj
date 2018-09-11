@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		421D8203213BE2C200DAF190 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421D8202213BE2C200DAF190 /* TableViewController.swift */; };
+		4220310E213CD5EE00CEF0A0 /* MeatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4220310D213CD5EE00CEF0A0 /* MeatViewController.swift */; };
+		42203110213D2AED00CEF0A0 /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4220310F213D2AED00CEF0A0 /* InputViewController.swift */; };
+		42423CE52140B6A1001A81B1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 42423CE42140B6A0001A81B1 /* GoogleService-Info.plist */; };
+		425C99A6213C86AE002A3BEF /* WeekViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425C99A5213C86AD002A3BEF /* WeekViewController.swift */; };
+		42656816213E3D7B00320314 /* CalcViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42656815213E3D7B00320314 /* CalcViewController.swift */; };
+		426DCF4C213F5F0F00D02372 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426DCF4B213F5F0F00D02372 /* RegisterViewController.swift */; };
+		42BFCD15213BC7DE0014ECEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BFCD14213BC7DE0014ECEB /* AppDelegate.swift */; };
+		42BFCD1E213BC7E50014ECEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42BFCD1D213BC7E50014ECEB /* Assets.xcassets */; };
+		42BFCD21213BC7E50014ECEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42BFCD1F213BC7E50014ECEB /* LaunchScreen.storyboard */; };
+		42BFCD2B213BCBEE0014ECEB /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BFCD2A213BCBEE0014ECEB /* loginViewController.swift */; };
+		42F44D57213E0E280067C59C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42F44D56213E0E280067C59C /* Main.storyboard */; };
+		5C0C3AF4A87485A6E80FDED2 /* Pods_NakedBBQ.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D72C139C1770A85467EBACB7 /* Pods_NakedBBQ.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		42203109213CB03100CEF0A0 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1033997DB9B9184B6A10DC67 /* Pods-NakedBBQ.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NakedBBQ.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NakedBBQ/Pods-NakedBBQ.debug.xcconfig"; sourceTree = "<group>"; };
+		421D8202213BE2C200DAF190 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		4220310D213CD5EE00CEF0A0 /* MeatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeatViewController.swift; sourceTree = "<group>"; };
+		4220310F213D2AED00CEF0A0 /* InputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
+		42423CE42140B6A0001A81B1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		425C99A5213C86AD002A3BEF /* WeekViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekViewController.swift; sourceTree = "<group>"; };
+		42656815213E3D7B00320314 /* CalcViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcViewController.swift; sourceTree = "<group>"; };
+		426DCF4B213F5F0F00D02372 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		42BFCD11213BC7DE0014ECEB /* NakedBBQ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NakedBBQ.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42BFCD14213BC7DE0014ECEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		42BFCD1D213BC7E50014ECEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42BFCD20213BC7E50014ECEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		42BFCD22213BC7E50014ECEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42BFCD2A213BCBEE0014ECEB /* loginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
+		42F44D56213E0E280067C59C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		9E6A414AF91757F7E4E8D6F9 /* Pods-NakedBBQ.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NakedBBQ.release.xcconfig"; path = "Pods/Target Support Files/Pods-NakedBBQ/Pods-NakedBBQ.release.xcconfig"; sourceTree = "<group>"; };
+		D72C139C1770A85467EBACB7 /* Pods_NakedBBQ.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NakedBBQ.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42BFCD0E213BC7DE0014ECEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C0C3AF4A87485A6E80FDED2 /* Pods_NakedBBQ.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42BFCD08213BC7DE0014ECEB = {
+			isa = PBXGroup;
+			children = (
+				42BFCD13213BC7DE0014ECEB /* NakedBBQ */,
+				42BFCD12213BC7DE0014ECEB /* Products */,
+				43938CACC0ABC23AB106D723 /* Pods */,
+				4F20843FB4AF921B63AC5BA6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		42BFCD12213BC7DE0014ECEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42BFCD11213BC7DE0014ECEB /* NakedBBQ.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42BFCD13213BC7DE0014ECEB /* NakedBBQ */ = {
+			isa = PBXGroup;
+			children = (
+				42F44D56213E0E280067C59C /* Main.storyboard */,
+				426DCF4B213F5F0F00D02372 /* RegisterViewController.swift */,
+				42656815213E3D7B00320314 /* CalcViewController.swift */,
+				42BFCD14213BC7DE0014ECEB /* AppDelegate.swift */,
+				4220310D213CD5EE00CEF0A0 /* MeatViewController.swift */,
+				425C99A5213C86AD002A3BEF /* WeekViewController.swift */,
+				4220310F213D2AED00CEF0A0 /* InputViewController.swift */,
+				421D8202213BE2C200DAF190 /* TableViewController.swift */,
+				42BFCD1D213BC7E50014ECEB /* Assets.xcassets */,
+				42BFCD1F213BC7E50014ECEB /* LaunchScreen.storyboard */,
+				42BFCD22213BC7E50014ECEB /* Info.plist */,
+				42BFCD2A213BCBEE0014ECEB /* loginViewController.swift */,
+				42423CE42140B6A0001A81B1 /* GoogleService-Info.plist */,
+			);
+			path = NakedBBQ;
+			sourceTree = "<group>";
+		};
+		43938CACC0ABC23AB106D723 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1033997DB9B9184B6A10DC67 /* Pods-NakedBBQ.debug.xcconfig */,
+				9E6A414AF91757F7E4E8D6F9 /* Pods-NakedBBQ.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4F20843FB4AF921B63AC5BA6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D72C139C1770A85467EBACB7 /* Pods_NakedBBQ.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42BFCD10213BC7DE0014ECEB /* NakedBBQ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42BFCD25213BC7E50014ECEB /* Build configuration list for PBXNativeTarget "NakedBBQ" */;
+			buildPhases = (
+				2BED37BC40836C5658284B66 /* [CP] Check Pods Manifest.lock */,
+				42BFCD0D213BC7DE0014ECEB /* Sources */,
+				42BFCD0E213BC7DE0014ECEB /* Frameworks */,
+				42BFCD0F213BC7DE0014ECEB /* Resources */,
+				42203109213CB03100CEF0A0 /* Embed Frameworks */,
+				789B5913C32BDFD81C19DFFE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NakedBBQ;
+			productName = NakedBBQ;
+			productReference = 42BFCD11213BC7DE0014ECEB /* NakedBBQ.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42BFCD09213BC7DE0014ECEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				KnownAssetTags = (
+					cell,
+				);
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Joshua Silverio";
+				TargetAttributes = {
+					42BFCD10213BC7DE0014ECEB = {
+						CreatedOnToolsVersion = 9.4;
+					};
+				};
+			};
+			buildConfigurationList = 42BFCD0C213BC7DE0014ECEB /* Build configuration list for PBXProject "NakedBBQ" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42BFCD08213BC7DE0014ECEB;
+			productRefGroup = 42BFCD12213BC7DE0014ECEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42BFCD10213BC7DE0014ECEB /* NakedBBQ */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42BFCD0F213BC7DE0014ECEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42F44D57213E0E280067C59C /* Main.storyboard in Resources */,
+				42423CE52140B6A1001A81B1 /* GoogleService-Info.plist in Resources */,
+				42BFCD21213BC7E50014ECEB /* LaunchScreen.storyboard in Resources */,
+				42BFCD1E213BC7E50014ECEB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2BED37BC40836C5658284B66 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NakedBBQ-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		789B5913C32BDFD81C19DFFE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NakedBBQ/Pods-NakedBBQ-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NakedBBQ/Pods-NakedBBQ-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42BFCD0D213BC7DE0014ECEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				426DCF4C213F5F0F00D02372 /* RegisterViewController.swift in Sources */,
+				42BFCD2B213BCBEE0014ECEB /* loginViewController.swift in Sources */,
+				42BFCD15213BC7DE0014ECEB /* AppDelegate.swift in Sources */,
+				425C99A6213C86AE002A3BEF /* WeekViewController.swift in Sources */,
+				42203110213D2AED00CEF0A0 /* InputViewController.swift in Sources */,
+				4220310E213CD5EE00CEF0A0 /* MeatViewController.swift in Sources */,
+				42656816213E3D7B00320314 /* CalcViewController.swift in Sources */,
+				421D8203213BE2C200DAF190 /* TableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		42BFCD1F213BC7E50014ECEB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42BFCD20213BC7E50014ECEB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42BFCD23213BC7E50014ECEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		42BFCD24213BC7E50014ECEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42BFCD26213BC7E50014ECEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1033997DB9B9184B6A10DC67 /* Pods-NakedBBQ.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 789RN28H6L;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NakedBBQ",
+				);
+				INFOPLIST_FILE = NakedBBQ/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JLS.NakedBBQ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		42BFCD27213BC7E50014ECEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E6A414AF91757F7E4E8D6F9 /* Pods-NakedBBQ.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 789RN28H6L;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NakedBBQ",
+				);
+				INFOPLIST_FILE = NakedBBQ/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JLS.NakedBBQ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42BFCD0C213BC7DE0014ECEB /* Build configuration list for PBXProject "NakedBBQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42BFCD23213BC7E50014ECEB /* Debug */,
+				42BFCD24213BC7E50014ECEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42BFCD25213BC7E50014ECEB /* Build configuration list for PBXNativeTarget "NakedBBQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42BFCD26213BC7E50014ECEB /* Debug */,
+				42BFCD27213BC7E50014ECEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42BFCD09213BC7DE0014ECEB /* Project object */;
+}
